@@ -1,7 +1,7 @@
 
 let iconMarker = L.Icon.extend({
     options:{
-        iconSize:[38, 45], iconAnchor: [30, 40], popupAnchor:[-5,-26]
+        iconSize:[38, 45], iconAnchor: [30, 40], popupAnchor:[-3,-26]
     }
 })
 let myMarker = new iconMarker({ iconUrl:'marker.png'})
